@@ -105,6 +105,23 @@ ul {
     margin-bottom: 10px;
 }
 
+#achievements .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+#achievements .gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
+
 footer {
     background: #111827;
     color: white;
@@ -121,6 +138,15 @@ footer {
     color: #1d4ed8;
 }
 
+@media(max-width:768px) {
+    #achievements .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #achievements .gallery img {
+        height: 200px;
+    }
+}
+
 @media(max-width:600px) {
     header h1 {
         font-size: 30px;
@@ -129,6 +155,15 @@ footer {
     nav a {
         display: inline-block;
         margin: 5px;
+    }
+}
+
+@media(max-width:480px) {
+    #achievements .gallery {
+        grid-template-columns: 1fr;
+    }
+    #achievements .gallery img {
+        height: 250px;
     }
 }
 </style>
@@ -150,6 +185,7 @@ footer {
     <a href="#books">Books</a>
     <a href="#research">Research</a>
     <a href="#service">Service</a>
+    <a href="#achievements">Achievements</a>
     <a href="#contact">Contact</a>
 </nav>
 
@@ -337,107 +373,29 @@ footer {
         </p>
     </div>
 </section>
-  <style>
-  #achievements .gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    max-width: 1100px;
-    margin: 30px auto;
-    padding: 20px;
-  }
-
-  #achievements .gallery img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 12px;
-    display: block;
-  }
-
-  @media (max-width: 768px) {
-    #achievements .gallery {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    #achievements .gallery img {
-      height: 200px;
-    }
-  }
-
-  @media (max-width: 480px) {
-    #achievements .gallery {
-      grid-template-columns: 1fr;
-    }
-    #achievements .gallery img {
-      height: 250px;
-    }
-  }
-</style>
 
 <section id="achievements">
-  <h2>My Achievements</h2>
-
-  <div class="gallery">
-    <img src="117716.jpg" alt="Achievement 1">
-    <img src="117717.jpg" alt="Achievement 2">
-    <img src="1_MZ9RQ2wdYlYmpXkyz62tcQ.jpeg" alt="Achievement 3">
-    <img src="202724_optimized_950 (1).png" alt="Achievement 4">
-    <img src="77577.jpg" alt="Achievement 5">
-    <img src="IMG-20260529-WA0012.jpg" alt="Achievement 6">
-    <img src="IMG-20260621-WA0140.jpg" alt="Achievement 7">
-    <img src="IMG-20260624-WA0106.jpg" alt="Achievement 8">
-    <img src="IMG-20260624-WA0111(1).jpg" alt="Achievement 9">
-    <img src="IMG-20260708-WA0093(1).jpg" alt="Achievement 10">
-    <img src="IMG-20260903-WA0043.jpg" alt="Achievement 11">
-    <img src="IMG-20260913-WA0020.jpg" alt="Achievement 12">
-    <img src="IMG-20260913-WA0017.jpg" alt="Achievement 13">
-    <img src="IMG-20260903-WA0042.jpg" alt="Achievement 14">
-    <img src="IMG-20260913-WA0016.jpg" alt="Achievement 15">
-    <img src="IMG-20260911-WA0084.jpg" alt="Achievement 16">
-  </div>
-</section>
-
-
-    }
-
-    @media (max-width: 768px) {
-      .gallery {
-        grid-template-columns: repeat(2, 1fr);
-      }
-
-      .gallery img {
-        height: 200px;
-      }
-    }
-
-    @media (max-width: 480px) {
-      .gallery {
-        grid-template-columns: 1fr;
-      }
-
-      .gallery img {
-        height: 250px;
-      }
-    }
-  </style>
-
-  <section id="achievements">
     <h2>My Achievements</h2>
 
     <div class="gallery">
-      <img src="117716.jpg" alt="Achievement 1">
-      <img src="117717.jpg" alt="Achievement 2">
-      <img src="1_MZ9RQ2wdYlYmpXkyz62tcQ.jpeg" alt="Achievement 3">
-      <img src="202724_optimized_950 (1).png" alt="Achievement 4">
-      <img src="77577.jpg" alt="Achievement 5">
-      <img src="IMG-20260529-WA0012.jpg" alt="Achievement 6">
-      <img src="IMG-20260621-WA0140.jpg" alt="Achievement 7">
-      <img src="IMG-20260624-WA0106.jpg" alt="Achievement 8">
-      <img src="IMG-20260624-WA0111(1).jpg" alt="Achievement 9">
-      <img src="IMG-20260708-WA0093(1).jpg" alt="Achievement 10">
+        <img src="117716.jpg" alt="Achievement 1">
+        <img src="117717.jpg" alt="Achievement 2">
+        <img src="1_MZ9RQ2wdYlYmpXkyz62tcQ.jpeg" alt="Achievement 3">
+        <img src="202724_optimized_950 (1).png" alt="Achievement 4">
+        <img src="77577.jpg" alt="Achievement 5">
+        <img src="IMG-20260529-WA0012.jpg" alt="Achievement 6">
+        <img src="IMG-20260621-WA0140.jpg" alt="Achievement 7">
+        <img src="IMG-20260624-WA0106.jpg" alt="Achievement 8">
+        <img src="IMG-20260624-WA0111(1).jpg" alt="Achievement 9">
+        <img src="IMG-20260708-WA0093(1).jpg" alt="Achievement 10">
+        <img src="IMG-20260903-WA0043.jpg" alt="Achievement 11">
+        <img src="IMG-20260913-WA0020.jpg" alt="Achievement 12">
+        <img src="IMG-20260913-WA0017.jpg" alt="Achievement 13">
+        <img src="IMG-20260903-WA0042.jpg" alt="Achievement 14">
+        <img src="IMG-20260913-WA0016.jpg" alt="Achievement 15">
+        <img src="IMG-20260911-WA0084.jpg" alt="Achievement 16">
     </div>
-  </section>
-
+</section>
 
 <section id="contact">
     <h2>Contact</h2>
