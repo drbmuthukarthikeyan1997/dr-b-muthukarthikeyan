@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Dr. B. Muthukarthikeyan | Official Portfolio</title>
+<title>Dr. B. Muthukarthikeyan | Assistant Professor | Author | Researcher</title>
+
+<meta name="description" content="Official website of Dr. B. Muthukarthikeyan, Assistant Professor of English, author, researcher, motivational speaker, academic mentor and social activist from Tamil Nadu.">
+<meta name="keywords" content="Dr B Muthukarthikeyan, Muthukarthikeyan, Karthik Balasubramanian, Assistant Professor English, English Professor Tamil Nadu, author, researcher, English literature, ELT, motivational speaker">
+<meta name="author" content="Dr. B. Muthukarthikeyan">
+<meta name="robots" content="index, follow">
+
+<meta property="og:title" content="Dr. B. Muthukarthikeyan | Official Website">
+<meta property="og:description" content="Assistant Professor of English | Author | Researcher | Motivational Speaker">
+<meta property="og:type" content="website">
 
 <style>
+
+/* =========================
+   GLOBAL
+========================= */
 
 * {
     box-sizing: border-box;
@@ -19,64 +33,15 @@ html {
 }
 
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #222;
-    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    color: #1f2937;
+    background: #f5f7fb;
 }
 
-/* =========================
-   HEADER
-========================= */
-
-header {
-    background: linear-gradient(135deg, #172554, #2563eb);
-    color: white;
-    text-align: center;
-    padding: 70px 20px;
-}
-
-header h1 {
-    font-size: 42px;
-    margin-bottom: 10px;
-}
-
-header p {
-    font-size: 18px;
-    margin: 5px 0;
-}
-
-/* =========================
-   NAVIGATION
-========================= */
-
-nav {
-    background: #0f172a;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 5px;
-    padding: 12px 10px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-nav a {
-    color: white;
+a {
     text-decoration: none;
-    padding: 9px 13px;
-    border-radius: 5px;
-    font-size: 14px;
 }
-
-nav a:hover {
-    background: #2563eb;
-}
-
-/* =========================
-   GENERAL SECTIONS
-========================= */
 
 section {
     max-width: 1150px;
@@ -85,10 +50,127 @@ section {
 }
 
 section h2 {
-    color: #172554;
     text-align: center;
+    color: #172554;
     font-size: 32px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+.section-intro {
+    max-width: 850px;
+    margin: -20px auto 35px;
+    text-align: center;
+    color: #64748b;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    background: linear-gradient(135deg, #020617, #172554, #1d4ed8, #2563eb);
+    color: white;
+    text-align: center;
+    padding: 75px 20px;
+}
+
+.profile-photo {
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+
+header .subtitle {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+header .tagline {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.header-buttons {
+    margin-top: 25px;
+}
+
+.header-buttons a {
+    display: inline-block;
+    margin: 6px;
+    padding: 11px 20px;
+    border-radius: 25px;
+    background: white;
+    color: #1d4ed8;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.header-buttons a:hover {
+    transform: translateY(-2px);
+    background: #dbeafe;
+}
+
+/* =========================
+   STATS
+========================= */
+
+.stats {
+    max-width: 1050px;
+    margin: 40px auto 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.stat {
+    background: rgba(255,255,255,0.13);
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 15px;
+    padding: 20px 10px;
+}
+
+.stat h3 {
+    font-size: 28px;
+}
+
+.stat p {
+    font-size: 13px;
+}
+
+/* =========================
+   NAVIGATION
+========================= */
+
+nav {
+    background: #111827;
+    padding: 13px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+nav a {
+    color: white;
+    display: inline-block;
+    margin: 5px 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #93c5fd;
 }
 
 /* =========================
@@ -96,16 +178,29 @@ section h2 {
 ========================= */
 
 .card {
-    background: #f8fafc;
-    padding: 25px;
-    margin-bottom: 20px;
-    border-radius: 12px;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+    background: white;
+    padding: 28px;
+    margin: 18px 0;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(15,23,42,0.08);
 }
 
 .card h3 {
-    color: #1e3a8a;
+    color: #1d4ed8;
     margin-bottom: 10px;
+    font-size: 21px;
+}
+
+.card p {
+    margin-bottom: 8px;
+}
+
+ul {
+    padding-left: 23px;
+}
+
+li {
+    margin-bottom: 7px;
 }
 
 /* =========================
@@ -115,7 +210,7 @@ section h2 {
 .two-column {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
+    gap: 22px;
 }
 
 /* =========================
@@ -123,70 +218,130 @@ section h2 {
 ========================= */
 
 .timeline {
-    border-left: 3px solid #2563eb;
+    border-left: 4px solid #2563eb;
+    margin-left: 15px;
     padding-left: 25px;
 }
 
 .timeline-item {
-    margin-bottom: 30px;
+    background: white;
+    padding: 22px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.07);
 }
 
-.timeline-item h3 {
-    color: #1e3a8a;
+.timeline-item .date {
+    color: #2563eb;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 /* =========================
-   TABLE
+   TABLES
 ========================= */
 
 .table-wrapper {
     overflow-x: auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.07);
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-}
-
-th,
-td {
-    border: 1px solid #ddd;
-    padding: 12px;
-    text-align: left;
+    min-width: 700px;
 }
 
 th {
     background: #172554;
     color: white;
+    padding: 14px;
+    text-align: left;
+}
+
+td {
+    padding: 13px;
+    border-bottom: 1px solid #e5e7eb;
+    vertical-align: top;
+}
+
+tr:hover {
+    background: #f8fafc;
 }
 
 /* =========================
-   GRIDS
+   BOOKS
 ========================= */
 
-.book-grid,
-.awards-grid,
-.skills,
-.gallery {
+.book-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
-.book-card,
-.award-card,
-.skill-card {
-    background: #f8fafc;
-    padding: 22px;
-    border-radius: 12px;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+.book {
+    background: white;
+    padding: 28px 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    border-top: 5px solid #2563eb;
+    transition: 0.3s;
 }
 
-.book-card h3,
-.award-card h3,
-.skill-card h3 {
+.book:hover {
+    transform: translateY(-5px);
+}
+
+.book h3 {
+    color: #1d4ed8;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+/* =========================
+   AWARDS
+========================= */
+
+.awards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.award {
+    background: white;
+    padding: 28px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    border-left: 5px solid #2563eb;
+}
+
+.award h3 {
+    color: #172554;
+    margin-bottom: 10px;
+}
+
+/* =========================
+   SKILLS
+========================= */
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skill {
+    background: #dbeafe;
     color: #1e3a8a;
-    margin-bottom: 8px;
+    padding: 9px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 /* =========================
@@ -194,23 +349,54 @@ th {
 ========================= */
 
 .research-box {
-    background: #eff6ff;
-    padding: 30px;
+    background: linear-gradient(135deg, #eff6ff, #ffffff);
     border-left: 5px solid #2563eb;
-    border-radius: 10px;
+    padding: 28px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+}
+
+.research-box h3 {
+    color: #172554;
+    margin-bottom: 10px;
 }
 
 /* =========================
    GALLERY
 ========================= */
 
-.gallery img {
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.gallery-item {
+    background: white;
+    padding: 8px;
+    border-radius: 14px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.09);
+    overflow: hidden;
+}
+
+.gallery-item img {
     width: 100%;
-    height: 240px;
+    height: 250px;
     object-fit: cover;
-    border-radius: 12px;
     display: block;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.03);
+}
+
+.gallery-caption {
+    text-align: center;
+    font-size: 13px;
+    color: #64748b;
+    padding: 8px 3px 3px;
 }
 
 /* =========================
@@ -218,15 +404,30 @@ th {
 ========================= */
 
 .contact-box {
-    background: #eff6ff;
-    padding: 35px;
-    border-radius: 15px;
+    background: linear-gradient(135deg, #172554, #2563eb);
+    color: white;
+    padding: 40px 25px;
+    border-radius: 18px;
     text-align: center;
 }
 
+.contact-box h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
 .contact-box a {
-    color: #1d4ed8;
-    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.contact-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: white;
+    color: #1d4ed8 !important;
+    border-radius: 25px;
 }
 
 /* =========================
@@ -234,178 +435,53 @@ th {
 ========================= */
 
 footer {
-    background: #0f172a;
+    background: #111827;
     color: white;
     text-align: center;
-    padding: 25px 15px;
+    padding: 35px 15px;
+}
+
+.footer-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
 }
 
 /* =========================
    BACK TO TOP
 ========================= */
 
-#backToTop {
+.back-top {
     position: fixed;
-    right: 20px;
-    bottom: 20px;
+    right: 18px;
+    bottom: 18px;
     background: #2563eb;
     color: white;
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
     font-size: 20px;
-}
-
-/* =========================
-   MY WRITINGS
-========================= */
-
-.writings-section {
-    background: #f8fafc;
-}
-
-.medium-intro {
-    max-width: 850px;
-    margin: 0 auto 35px;
-    text-align: center;
-    color: #64748b;
-}
-
-.medium-articles {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.medium-card {
-    background: white;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.06);
-}
-
-.medium-card h3 {
-    color: #172554;
-    margin-bottom: 10px;
-}
-
-.medium-card a {
-    color: #2563eb;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* ==================================================
-   POLICE SERVICE PROJECTS
-================================================== */
-
-#police-projects {
-    max-width: 1150px;
-    margin: 0 auto;
-    padding: 70px 20px;
-    background: #f7f9fc;
-}
-
-#police-projects h2 {
-    text-align: center;
-    color: #172554;
-    font-size: 32px;
-    margin-bottom: 15px;
-}
-
-.police-projects-intro {
-    max-width: 850px;
-    margin: -10px auto 40px;
-    text-align: center;
-    color: #64748b;
-    line-height: 1.7;
-    font-size: 16px;
-}
-
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
-}
-
-.project-card {
-    background: #ffffff;
-    padding: 30px;
-    border-radius: 16px;
-    box-shadow: 0 5px 20px rgba(15, 23, 42, 0.08);
-    border-top: 5px solid #2563eb;
-    transition: all 0.3s ease;
-}
-
-.project-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.14);
-}
-
-.project-number {
-    color: #2563eb;
-    font-size: 13px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    margin-bottom: 12px;
-}
-
-.project-card h3 {
-    color: #172554;
-    font-size: 27px;
-    margin-bottom: 12px;
-}
-
-.project-card h4 {
-    color: #374151;
-    font-size: 17px;
-    line-height: 1.5;
-    margin-bottom: 18px;
-    font-weight: 600;
-}
-
-.project-card p {
-    color: #555555;
-    font-size: 15px;
-    line-height: 1.7;
-    margin-bottom: 20px;
-}
-
-.project-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 20px;
-}
-
-.project-tags span {
-    background: #dbeafe;
-    color: #1e3a8a;
-    padding: 7px 12px;
-    border-radius: 20px;
-    font-size: 12px;
-    font-weight: 600;
-}
-
-.project-type {
-    border-top: 1px solid #e5e7eb;
-    padding-top: 15px;
-    color: #64748b;
-    font-size: 14px;
-    line-height: 1.6;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
 }
 
 /* =========================
    RESPONSIVE
 ========================= */
 
-@media(max-width: 900px) {
+@media(max-width:900px) {
 
-    .project-grid {
+    .stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .book-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .awards-grid {
         grid-template-columns: 1fr;
     }
 
@@ -413,19 +489,28 @@ footer {
         grid-template-columns: 1fr;
     }
 
-    .book-grid,
-    .awards-grid,
-    .skills,
-    .gallery,
-    .medium-articles {
-        grid-template-columns: 1fr 1fr;
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media(max-width: 600px) {
+@media(max-width:600px) {
+
+    header {
+        padding: 50px 15px;
+    }
 
     header h1 {
         font-size: 30px;
+    }
+
+    header .subtitle {
+        font-size: 16px;
+    }
+
+    .profile-photo {
+        width: 140px;
+        height: 140px;
     }
 
     section {
@@ -433,121 +518,243 @@ footer {
     }
 
     section h2 {
-        font-size: 27px;
+        font-size: 26px;
     }
 
-    .book-grid,
-    .awards-grid,
-    .skills,
-    .gallery,
-    .medium-articles {
+    nav a {
+        margin: 4px 5px;
+        font-size: 12px;
+    }
+
+    .stats {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .book-grid {
         grid-template-columns: 1fr;
     }
 
-    .project-grid {
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-item img {
+        height: 260px;
+    }
+
+    .card {
+        padding: 21px;
+    }
+}
+
+/* =========================
+   MEDIUM / MY WRITINGS
+========================= */
+
+.writings-section {
+    max-width: 1150px;
+    margin: auto;
+    padding: 70px 20px;
+}
+
+.writings-intro {
+    max-width: 800px;
+    margin: -20px auto 35px;
+    text-align: center;
+    color: #64748b;
+    line-height: 1.7;
+}
+
+.medium-profile-button {
+    display: block;
+    width: fit-content;
+    margin: 0 auto 40px;
+    padding: 12px 24px;
+    background: #111827;
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.medium-profile-button:hover {
+    background: #2563eb;
+    transform: translateY(-2px);
+}
+
+.medium-articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.medium-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(15,23,42,0.08);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.medium-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(15,23,42,0.14);
+}
+
+.medium-card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background: #e5e7eb;
+}
+
+.medium-card-content {
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.medium-date {
+    font-size: 13px;
+    color: #64748b;
+    margin-bottom: 8px;
+}
+
+.medium-card h3 {
+    color: #172554;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+.medium-description {
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+.medium-read {
+    margin-top: auto;
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.medium-read:hover {
+    color: #172554;
+}
+
+.medium-loading {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 50px;
+    color: #64748b;
+}
+
+@media(max-width:900px) {
+    .medium-articles {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width:600px) {
+    .medium-articles {
         grid-template-columns: 1fr;
     }
 
     .writings-section {
         padding: 50px 15px;
     }
+}</style>
 
-    #police-projects {
-        padding: 50px 15px;
-    }
-
-    #police-projects h2 {
-        font-size: 27px;
-    }
-
-    .project-card {
-        padding: 22px;
-    }
-
-    .project-card h3 {
-        font-size: 24px;
-    }
-
-    .project-card h4 {
-        font-size: 16px;
-    }
-
-    .gallery img {
-        height: 220px;
-    }
-}
-
-</style>
 </head>
 
 <body>
 
-<!-- ==================================================
+<!-- =========================
      HEADER
-================================================== -->
+========================= -->
 
-<header>
+<header id="top">
 
     <h1>Dr. B. Muthukarthikeyan</h1>
 
-    <p>
-        M.A., M.Phil., PGDCE., PhD.
+    <img
+        src="202724_optimized_950 (1).png"
+        alt="Dr. B. Muthukarthikeyan - Assistant Professor and Author"
+        class="profile-photo"
+    >
+
+    <p class="subtitle">
+        Assistant Professor of English | Author | Researcher | Motivational Speaker
     </p>
 
-    <p>
-        Assistant Professor of English | Author | Researcher |
-        Motivational Speaker
+    <p class="tagline">
+        Academic • Literature • Research • Youth Development • Social Service
     </p>
 
-    <p>
-        Academic Mentor | Social Activist | Communication Trainer
-    </p>
+    <div class="header-buttons">
+        <a href="#about">Explore Profile</a>
+        <a href="#books">My Books</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <div class="stats">
+
+        <div class="stat">
+            <h3>Ph.D.</h3>
+            <p>English</p>
+        </div>
+
+        <div class="stat">
+            <h3>4</h3>
+            <p>Literary Works</p>
+        </div>
+
+        <div class="stat">
+            <h3>18</h3>
+            <p>Research Papers Presented</p>
+        </div>
+
+        <div class="stat">
+            <h3>400+</h3>
+            <p>Civil Service Trainees Mentored</p>
+        </div>
+
+    </div>
 
 </header>
 
-
-<!-- ==================================================
+<!-- =========================
      NAVIGATION
-================================================== -->
+========================= -->
 
 <nav>
 
     <a href="#about">About</a>
-
     <a href="#career">Career</a>
-
     <a href="#education">Education</a>
-
     <a href="#experience">Experience</a>
-
     <a href="#research">Research</a>
-
     <a href="#publications">Publications</a>
-
-    <a href="#police-projects">Police Projects</a>
-
+   <a href="#police-projects">Police Projects</a>
     <a href="#writings">My Writings</a>
-
     <a href="#talks">Talks</a>
-
     <a href="#books">Books</a>
-
     <a href="#awards">Awards</a>
-
     <a href="#service">Service</a>
-
     <a href="#skills">Skills</a>
-
     <a href="#achievements">Gallery</a>
-
     <a href="#contact">Contact</a>
 
 </nav>
 
-
-<!-- ==================================================
+<!-- =========================
      ABOUT
-================================================== -->
+========================= -->
 
 <section id="about">
 
@@ -556,99 +763,75 @@ footer {
     <div class="card">
 
         <p>
-            Dr. B. Muthukarthikeyan is an Assistant Professor of English,
-            author, researcher, motivational speaker, academic mentor
-            and social activist. His professional interests include
-            English Language Teaching, literature, communication,
-            research, youth development and professional training.
-        </p>
-
-    </div>
-
-</section>
-
-
-<!-- ==================================================
-     CAREER
-================================================== -->
-
-<section id="career">
-
-    <h2>Career Profile</h2>
-
-    <div class="card">
-
-        <h3>Assistant Professor of English</h3>
-
-        <p>
-            P.S.R. Engineering College, Sivakasi, Tamil Nadu.
+            I am <strong>Dr. B. Muthukarthikeyan</strong>, an Assistant Professor
+            of English at P.S.R. Engineering College, Sivakasi, Tamil Nadu.
+            I am an author, researcher, motivational speaker, academic mentor
+            and social activist.
         </p>
 
         <br>
 
         <p>
-            Areas of professional engagement include English Language
-            Teaching, Professional English, Communication Skills,
-            Soft Skills, Literature, Research Methodology and
-            Outcome-Based Education.
+            My academic interests include English Language Teaching,
+            Indian Writing in English, Comparative Literature, Mythology,
+            Gender Studies, Crime Fiction and Communication Studies.
+        </p>
+
+        <br>
+
+        <p>
+            My professional journey combines teaching, research, literary
+            writing, student mentoring, communication training, youth
+            development and community service.
+        </p>
+
+        <br>
+
+        <p>
+            As an academician, I focus on English language development,
+            communication skills, professional English, employability skills,
+            soft skills, academic writing and innovative teaching practices.
         </p>
 
     </div>
 
 </section>
 
+<!-- =========================
+     CAREER
+========================= -->
 
-<!-- ==================================================
-     EDUCATION
-================================================== -->
+<section id="career">
 
-<section id="education">
-
-    <h2>Education</h2>
+    <h2>Career Highlights</h2>
 
     <div class="two-column">
 
         <div class="card">
 
-            <h3>Ph.D. in English</h3>
+            <h3>Academic Career</h3>
 
-            <p>
-                Bharathiar University, Coimbatore.
-            </p>
-
-        </div>
-
-
-        <div class="card">
-
-            <h3>M.Phil. in English</h3>
-
-            <p>
-                Research on Man-Woman Relationship in
-                Anita Nair's <em>Mistress</em>.
-            </p>
+            <ul>
+                <li>Assistant Professor of English at P.S.R. Engineering College, Sivakasi.</li>
+                <li>Experience in English Language Teaching and Communication Skills.</li>
+                <li>Experience as Assistant Professor in an Arts College.</li>
+                <li>Experience as PG Assistant teaching English, Social Science and Economics.</li>
+                <li>100% centum result experience in private-school teaching.</li>
+            </ul>
 
         </div>
 
-
         <div class="card">
 
-            <h3>M.A. in English</h3>
+            <h3>Professional Contributions</h3>
 
-            <p>
-                Postgraduate qualification in English Literature.
-            </p>
-
-        </div>
-
-
-        <div class="card">
-
-            <h3>PGDCE</h3>
-
-            <p>
-                Post Graduate Diploma in Communicative English.
-            </p>
+            <ul>
+                <li>Published author and crime fiction writer.</li>
+                <li>Researcher in literature, gender, mythology and communication.</li>
+                <li>Motivational speaker and soft-skills trainer.</li>
+                <li>Academic mentor and student-development facilitator.</li>
+                <li>Camp Commander / Camp Leader for Civil Service Officer Trainees.</li>
+            </ul>
 
         </div>
 
@@ -656,10 +839,96 @@ footer {
 
 </section>
 
+<!-- =========================
+     EDUCATION
+========================= -->
 
-<!-- ==================================================
+<section id="education">
+
+    <h2>Educational Qualifications</h2>
+
+    <div class="table-wrapper">
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Qualification</th>
+                    <th>Discipline</th>
+                    <th>Year</th>
+                    <th>Institution / University</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Ph.D.</td>
+                    <td>English / Indian Literature / Comparative Studies</td>
+                    <td>2025</td>
+                    <td>Erode Arts and Science College, affiliated to Bharathiar University</td>
+                </tr>
+
+                <tr>
+                    <td>M.Phil.</td>
+                    <td>English</td>
+                    <td>2021</td>
+                    <td>Erode Arts and Science College, Bharathiar University</td>
+                </tr>
+
+                <tr>
+                    <td>M.A.</td>
+                    <td>English</td>
+                    <td>2019</td>
+                    <td>Erode Arts and Science College, Bharathiar University</td>
+                </tr>
+
+                <tr>
+                    <td>B.A.</td>
+                    <td>English</td>
+                    <td>2017</td>
+                    <td>Dr. G.R. Damodaran College of Science</td>
+                </tr>
+
+                <tr>
+                    <td>PG Diploma</td>
+                    <td>Communicative English</td>
+                    <td>2021</td>
+                    <td>Bharathiar University</td>
+                </tr>
+
+                <tr>
+                    <td>Business English Certificate</td>
+                    <td>Cambridge English</td>
+                    <td>2015</td>
+                    <td>University of Cambridge</td>
+                </tr>
+
+                <tr>
+                    <td>Cambridge English Teachers Knowledge Test Module 3</td>
+                    <td>English Language Teaching</td>
+                    <td>2024</td>
+                    <td>Cambridge English</td>
+                </tr>
+
+                <tr>
+                    <td>Upskill Cambridge English</td>
+                    <td>English</td>
+                    <td>2023</td>
+                    <td>Cambridge English</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+
+<!-- =========================
      EXPERIENCE
-================================================== -->
+========================= -->
 
 <section id="experience">
 
@@ -669,37 +938,37 @@ footer {
 
         <div class="timeline-item">
 
+            <div class="date">2025 – Present</div>
+
             <h3>Assistant Professor of English</h3>
 
             <p>
-                Teaching English language, literature,
-                communication skills, professional English
-                and soft skills.
+                <strong>P.S.R. Engineering College, Sivakasi, Tamil Nadu</strong>
             </p>
+
+            <br>
+
+            <ul>
+                <li>Teaching Professional English and Communication Skills.</li>
+                <li>Faculty Advisor for first-year B.E./B.Tech students.</li>
+                <li>Student mentoring and academic advising.</li>
+                <li>Placement and employability support.</li>
+                <li>Department-level administrative responsibilities.</li>
+                <li>Academic and co-curricular event coordination.</li>
+                <li>Participation in OBE and institutional quality initiatives.</li>
+            </ul>
 
         </div>
 
-
         <div class="timeline-item">
 
-            <h3>Academic &amp; Research Mentor</h3>
+            <div class="date">Earlier Academic Experience</div>
+
+            <h3>Teaching Experience</h3>
 
             <p>
-                Guiding students in academic writing, research,
-                presentations, communication and professional
-                development.
-            </p>
-
-        </div>
-
-
-        <div class="timeline-item">
-
-            <h3>Motivational Speaker &amp; Trainer</h3>
-
-            <p>
-                Conducting invited sessions and training programmes
-                for students, professionals and social organisations.
+                Experience as Assistant Professor in an Arts College and
+                PG Assistant teaching English, Social Science and Economics.
             </p>
 
         </div>
@@ -708,10 +977,9 @@ footer {
 
 </section>
 
-
-<!-- ==================================================
+<!-- =========================
      ACADEMIC RESPONSIBILITIES
-================================================== -->
+========================= -->
 
 <section>
 
@@ -720,36 +988,44 @@ footer {
     <div class="two-column">
 
         <div class="card">
-
-            <h3>Teaching &amp; Learning</h3>
-
+            <h3>Faculty Advisor</h3>
             <p>
-                English language, literature, communication
-                and professional skills.
+                Academic progress, mentoring, co-curricular development,
+                career guidance and student support.
             </p>
-
         </div>
 
+        <div class="card">
+            <h3>Student Mentoring</h3>
+            <p>
+                Academic advising, career guidance, placement support
+                and personal mentoring.
+            </p>
+        </div>
 
         <div class="card">
-
-            <h3>Student Mentoring</h3>
-
+            <h3>Department Activities</h3>
             <p>
-                Academic guidance, career development
-                and personality development.
+                Seminars, workshops, academic programmes, institutional
+                initiatives and student-development activities.
             </p>
+        </div>
 
+        <div class="card">
+            <h3>Event Coordination</h3>
+            <p>
+                Literary events, guest lectures, soft-skills programmes,
+                student-development activities and departmental functions.
+            </p>
         </div>
 
     </div>
 
 </section>
 
-
-<!-- ==================================================
+<!-- =========================
      EXPERTISE
-================================================== -->
+========================= -->
 
 <section>
 
@@ -757,617 +1033,691 @@ footer {
 
     <div class="skills">
 
-        <div class="skill-card">
-
-            <h3>ELT</h3>
-
-            <p>
-                English Language Teaching
-            </p>
-
-        </div>
-
-
-        <div class="skill-card">
-
-            <h3>Communication</h3>
-
-            <p>
-                Communication and Professional English
-            </p>
-
-        </div>
-
-
-        <div class="skill-card">
-
-            <h3>Literature</h3>
-
-            <p>
-                Indian and Comparative Literature
-            </p>
-
-        </div>
-
-
-        <div class="skill-card">
-
-            <h3>Gender Studies</h3>
-
-            <p>
-                Gender, Mythology and Representation
-            </p>
-
-        </div>
-
-
-        <div class="skill-card">
-
-            <h3>Research</h3>
-
-            <p>
-                Research Methodology and Academic Writing
-            </p>
-
-        </div>
-
-
-        <div class="skill-card">
-
-            <h3>Soft Skills</h3>
-
-            <p>
-                Leadership, teamwork and personality development
-            </p>
-
-        </div>
+        <span class="skill">English Language Teaching</span>
+        <span class="skill">Communication Skills</span>
+        <span class="skill">Professional English</span>
+        <span class="skill">Indian Literature</span>
+        <span class="skill">Comparative Literature</span>
+        <span class="skill">Gender Studies</span>
+        <span class="skill">Academic Writing</span>
+        <span class="skill">Research Methodology</span>
+        <span class="skill">Soft Skills</span>
+        <span class="skill">Outcome Based Education</span>
+        <span class="skill">Student Mentoring</span>
+        <span class="skill">Employability Skills</span>
 
     </div>
 
 </section>
 
-
-<!-- ==================================================
+<!-- =========================
      RESEARCH
-================================================== -->
+========================= -->
 
 <section id="research">
 
-    <h2>Research</h2>
+    <h2>Research & Academic Interests</h2>
 
     <div class="research-box">
-
-        <h3>Research Interests</h3>
-
+        <h3>Indian Writing in English</h3>
         <p>
-            Indian Writing in English, Mythology,
-            Comparative Literature, Gender Studies,
-            Crime Fiction, Communication Studies and ELT.
+            Indian authors, postcolonial narratives, identity, culture
+            and contemporary literary trends.
         </p>
+    </div>
 
-        <br>
-
-        <h3>Doctoral Research</h3>
-
+    <div class="research-box">
+        <h3>Mythology</h3>
         <p>
-            Recasting Virtue and Power: Modern Perspectives
-            on Gender and Heroism in Epic Retellings.
+            Epic retellings, mythology, heroism, gender and
+            contemporary reinterpretations.
         </p>
+    </div>
 
+    <div class="research-box">
+        <h3>Comparative Literature</h3>
+        <p>
+            Comparative analysis of texts across cultures, genres
+            and historical contexts.
+        </p>
+    </div>
+
+    <div class="research-box">
+        <h3>Gender Studies</h3>
+        <p>
+            Feminism, gender representation, women's narratives,
+            identity and cultural constructions.
+        </p>
+    </div>
+
+    <div class="research-box">
+        <h3>Crime Fiction</h3>
+        <p>
+            Detective fiction, criminological themes, psychological
+            thrillers and investigative narratives.
+        </p>
+    </div>
+
+    <div class="research-box">
+        <h3>Communication Studies & ELT</h3>
+        <p>
+            Professional communication, employability, language acquisition,
+            innovative pedagogy and technology-enabled teaching.
+        </p>
     </div>
 
 </section>
 
-
-<!-- ==================================================
+<!-- =========================
      RESEARCH DEGREES
-================================================== -->
+========================= -->
 
 <section>
 
-    <h2>Research Degrees &amp; Thesis</h2>
-
+    <h2>Research Degrees & Thesis</h2>
 
     <div class="card">
 
         <h3>Ph.D. in English</h3>
 
         <p>
-
             <strong>
-                “Recasting Virtue and Power: Modern Perspectives
-                on Gender and Heroism in Epic Retellings”
+                “Recasting Virtue and Power: Modern Perspectives on Gender
+                and Heroism in Epic Retellings”
             </strong>
-
         </p>
+<!-- =========================
+     MY WRITINGS / MEDIUM
+========================= -->
 
-        <br>
+<section id="writings" class="writings-section">
 
-        <p>
-            Research areas: Comparative Literature,
-            Mythology and Gender Studies.
-        </p>
+    <h2>My Writings</h2>
+
+    <p class="writings-intro">
+        Explore my latest writings, reflections, experiences and literary
+        articles published on Medium.
+    </p>
+
+    <a
+        href="https://medium.com/@karthiktendlya"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="medium-profile-button">
+        Visit My Medium Profile →
+    </a>
+
+    <div id="mediumArticles" class="medium-articles">
+
+        <div class="medium-loading">
+            Loading my latest writings...
+        </div>
 
     </div>
 
+</section>
+        <p>
+            Research areas: Comparative Literature, Mythology and Gender Studies.
+        </p>
+
+    </div>
 
     <div class="card">
 
         <h3>M.Phil. in English</h3>
 
         <p>
-
             <strong>
-                “Man-Woman Relationship in Anita Nair's Mistress”
+                “Man–Woman Relationship in Anita Nair's Mistress”
             </strong>
+        </p>
 
+        <p>
+            Research areas: Indian Writing in English and Gender Studies.
         </p>
 
     </div>
-
 
     <div class="card">
 
-        <h3>M.A. Project</h3>
+        <h3>M.A. English Project</h3>
 
         <p>
-
             <strong>
-                “Iago the Game Changer in William Shakespeare's Othello”
+                “Iago: The Game Changer in William Shakespeare's Othello”
             </strong>
+        </p>
 
+        <p>
+            Research area: Shakespearean Studies / English Literature.
         </p>
 
     </div>
 
 </section>
 
-
-<!-- ==================================================
-     MY WRITINGS
-================================================== -->
-
-<section id="writings" class="writings-section">
-
-    <h2>My Writings</h2>
-
-    <p class="medium-intro">
-
-        Selected articles, reflections and literary writings
-        by Dr. B. Muthukarthikeyan.
-
-    </p>
-
-
-    <div class="medium-articles">
-
-        <div class="medium-card">
-
-            <h3>My Medium Writings</h3>
-
-            <p>
-                Explore articles, reflections and literary writings
-                published online.
-            </p>
-
-            <br>
-
-            <a href="https://medium.com/"
-               target="_blank">
-                Visit Medium
-            </a>
-
-        </div>
-
-
-        <div class="medium-card">
-
-            <h3>Literature &amp; Society</h3>
-
-            <p>
-                Writings connecting literature, society,
-                education and contemporary issues.
-            </p>
-
-        </div>
-
-
-        <div class="medium-card">
-
-            <h3>Motivation &amp; Life</h3>
-
-            <p>
-                Reflections on motivation, discipline,
-                learning and personal growth.
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ==================================================
+<!-- =========================
      PUBLICATIONS
-================================================== -->
+========================= -->
 
 <section id="publications">
 
-    <h2>Publications</h2>
+    <h2>Research Publications</h2>
 
     <div class="card">
 
-        <h3>Research Publications</h3>
+        <ol>
 
-        <p>
-            Research papers and academic contributions in literature,
-            gender studies, communication studies and English
-            language teaching.
-        </p>
+            <li>
+                <strong>
+                The Role of AI-Powered Chatbots in Improving English
+                Conversational Skills among EFL Learners: A Conceptual Review
+                </strong>.
+                International Council of English and Literature Journal,
+                Volume 6 Issue 3, 2026. ISSN 2583-1232.
+            </li>
+
+            <li>
+                <strong>
+                Re-examining the Social Constructivist Foundations of Peer Learning
+                </strong>.
+                United International Journal of Multidisciplinary Research,
+                2(4), 2025. ISSN 3048-6726.
+            </li>
+
+            <li>
+                <strong>
+                The Influence of Grammar on Academic vs. Creative Writing
+                </strong>.
+                International Journal of English and Studies, 7(10), 2025.
+                ISSN 2581-8333.
+            </li>
+
+            <li>
+                <strong>
+                Structural and Narratological Nuances in Anand Neelakantan's Asura
+                </strong>.
+                Journal of International English Research Studies, 2(2), 2024.
+                ISSN 3048-5231.
+            </li>
+
+            <li>
+                <strong>
+                Delineation of Orientalism in Conrad's Heart of Darkness
+                </strong>.
+                Journal of Language and Linguistic Studies, 19(4), 2023.
+            </li>
+
+            <li>
+                <strong>
+                Female Characters in Chetan Bhagat's Half Girlfriend
+                </strong>.
+                2025.
+            </li>
+
+            <li>
+                <strong>
+                A Comparative Study on Mythical Icons in Ramayana
+                </strong>.
+                Journal of Education, 23(2), 2021.
+                ISSN 0972-7175.
+            </li>
+
+            <li>
+                <strong>
+                Reexamining the Ramayana: A Comparative Analysis of Valmiki's
+                Ramayana and Asura
+                </strong>.
+                International Journal of Open Publication and Exploration,
+                12(1), 2024. ISSN 3006-2853.
+            </li>
+
+        </ol>
 
     </div>
 
 </section>
 
-
-<!-- ==================================================
+<!-- =========================
      CONFERENCE PAPERS
-================================================== -->
+========================= -->
 
 <section>
 
-    <h2>Conference Papers</h2>
+    <h2>Conference Papers & Proceedings</h2>
 
     <div class="card">
 
-        <p>
-            Presented research papers at academic conferences,
-            seminars and literary forums.
-        </p>
+        <ul>
+
+            <li>
+                Graphic Novels – Sankara Subraminam, R. & Muthukarthikeyan, B.
+            </li>
+
+            <li>
+                Women in Indian Cinema – Kamalakkannan, M. & Muthukarthikeyan, B.
+            </li>
+
+            <li>
+                Female Characters in Chetan Bhagat's Half Girlfriend –
+                Muthukarthikeyan, B.
+            </li>
+
+            <li>
+                Exploring Autobiographical Elements and Emotional Depth in
+                Ravinder Singh's I Too Had a Love Story –
+                Muthukarthikeyan, B. & Mariselve, T.
+            </li>
+
+        </ul>
 
     </div>
 
 </section>
 
-
-<!-- ==================================================
+<!-- =========================
      INTERNATIONAL CONFERENCES
-================================================== -->
+========================= -->
 
 <section>
 
-    <h2>International Conferences</h2>
+    <h2>International Conference Presentations</h2>
 
-    <div class="card">
+    <div class="table-wrapper">
 
-        <p>
-            Participation and paper presentations at international
-            academic conferences.
-        </p>
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Paper</th>
+                    <th>Institution</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>2019</td>
+                    <td>Iago the Game Changer</td>
+                    <td>Erode Arts and Science College</td>
+                </tr>
+
+                <tr>
+                    <td>2020</td>
+                    <td>A Comparative Study on Mythical Icons in Ramayana</td>
+                    <td>Vivekanandha College</td>
+                </tr>
+
+                <tr>
+                    <td>2021</td>
+                    <td>Women in Mythology: Suppression and Subjugation in Indian Epic</td>
+                    <td>Mepco Schlenk Engineering College</td>
+                </tr>
+
+                <tr>
+                    <td>2025</td>
+                    <td>Wildlife Crimes in India</td>
+                    <td>Manonmaniam Sundaranar University</td>
+                </tr>
+
+                <tr>
+                    <td>2026</td>
+                    <td>Sir Arthur Conan Doyle: The Physician-Detective</td>
+                    <td>Manonmaniam Sundaranar University</td>
+                </tr>
+
+                <tr>
+                    <td>2026</td>
+                    <td>Exploring Autobiographical Elements in I Too Had a Love Story</td>
+                    <td>AAA College</td>
+                </tr>
+
+            </tbody>
+
+        </table>
 
     </div>
 
 </section>
 
-
-<!-- ==================================================
+<!-- =========================
      NATIONAL CONFERENCES
-================================================== -->
+========================= -->
 
 <section>
 
-    <h2>National Conferences</h2>
+    <h2>National Conferences & Seminars</h2>
 
     <div class="card">
 
-        <p>
-            Participation and paper presentations at national
-            conferences and seminars.
-        </p>
+        <ul>
+
+            <li>Oppression of Black People in Othello – 2018</li>
+            <li>India's Economic and Trading System – 2018</li>
+            <li>Aspects of Feminist Ecology – 2019</li>
+            <li>Women in Indian Cinema – 2019</li>
+            <li>Thanos and the Hero's Journey – 2020</li>
+            <li>The Blissful Beauty of Lanka – 2020</li>
+            <li>Subaltern Voice in Othello – 2020</li>
+            <li>Community Language Teaching Strategies – 2020</li>
+            <li>Feminism and Post Feminism – 2020</li>
+            <li>Role of Language Laboratory in ELT – 2020</li>
+            <li>Language Laboratory: A Platform to Narrow Down – 2020</li>
+            <li>Augmentation of Innovative Strategies – 2020</li>
+
+        </ul>
 
     </div>
 
 </section>
 
-
-<!-- ==================================================
+<!-- =========================
      INVITED TALKS
-================================================== -->
+========================= -->
 
 <section id="talks">
 
-    <h2>Invited Talks</h2>
+    <h2>Invited Talks & Resource Person Activities</h2>
 
-    <div class="card">
+    <div class="timeline">
 
-        <h3>Motivational &amp; Academic Sessions</h3>
+        <div class="timeline-item">
 
-        <p>
-            Conducted invited lectures and training sessions
-            on communication, English language, motivation,
-            leadership, soft skills and professional development.
-        </p>
+            <div class="date">2024</div>
+
+            <ul>
+                <li>Innovative Techniques to Enrich the Power of Habits – Rajapalayam Rajus' College.</li>
+                <li>The Power of Keystone Habits – Erode Arts and Science College.</li>
+                <li>Atomic Habits – Building Personal and Professional Excellence – Dr. R.A.N.M. Arts and Science College.</li>
+                <li>Pathway to Excellence – Unnamalai Institute of Technology.</li>
+                <li>Atomic Habits – Sree Amman Arts and Science College.</li>
+                <li>Camp Leader – Foundation Course for Civil Service Officer Trainees, Dr. MCR HRD Institute, Government of Telangana.</li>
+            </ul>
+
+        </div>
+
+        <div class="timeline-item">
+
+            <div class="date">2025</div>
+
+            <ul>
+                <li>Chief Guest – Unlocking Opportunities: Communication, Collaboration & Critical Thinking – Erode Arts and Science College.</li>
+                <li>Soft Skills and Employability Training – Rathinam College of Arts and Science.</li>
+                <li>Project Guidance Programme – MS University Constituent College, Puliyangudi.</li>
+                <li>Chief Guest – Coffee House Inauguration – Don Bosco College.</li>
+                <li>A Mind Opened by a Book Never Closes – NCC Unit, MS University.</li>
+                <li>Effective English Communication Skills Workshop – Rathinam College of Arts and Science.</li>
+                <li>Camp Leader – Foundation Course for Civil Service Officer Trainees, Dr. MCR HRD Institute, Government of Telangana.</li>
+            </ul>
+
+        </div>
+
+        <div class="timeline-item">
+
+            <div class="date">2026</div>
+
+            <ul>
+                <li>How to Enhance English Language Skills – Erode Arts and Science College.</li>
+                <li>Building Your Employability Tool Box – Erode Arts and Science College.</li>
+                <li>Co-Chair – International Conference, Department of Criminology & Criminal Justice, MS University.</li>
+                <li>Ragging vs Mentoring: Creating Positive Campus Relationships – Govindammal Aditanar College for Women, Tiruchendur.</li>
+            </ul>
+
+        </div>
 
     </div>
 
 </section>
 
-
-<!-- ==================================================
+<!-- =========================
      CIVIL SERVICE
-================================================== -->
+========================= -->
 
 <section>
 
-    <h2>Civil Service Engagement</h2>
+    <h2>Civil Service Training & Leadership</h2>
 
-    <div class="card">
+    <div class="two-column">
 
-        <h3>YHAI / Dr MCR HRD Foundation</h3>
+        <div class="card">
+            <h3>Camp Commander / Camp Leader</h3>
+            <p>
+                Foundation Course for Civil Service Officer Trainees at
+                Dr. MCR Human Resource Development Institute,
+                Government of Telangana.
+            </p>
+        </div>
 
-        <p>
-            Served in camp leadership and coordination roles
-            associated with civil service officer training
-            programmes and professional development camps.
-        </p>
+        <div class="card">
+            <h3>Mentorship</h3>
+            <p>
+                Mentored more than 400 Civil Service Officer trainees
+                through leadership, communication and development-oriented
+                camp activities.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Liaison Officer</h3>
+            <p>
+                Served as Liaison Officer for senior IAS officers during
+                Foundation Course programmes.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Youth Development</h3>
+            <p>
+                Active involvement in youth leadership, training,
+                educational development and social initiatives.
+            </p>
+        </div>
 
     </div>
 
 </section>
 
-
-<!-- ==================================================
+<!-- =========================
      FDP
-================================================== -->
+========================= -->
 
 <section>
 
-    <h2>Faculty Development Programmes</h2>
+    <h2>FDPs, Workshops & Professional Development</h2>
 
     <div class="card">
 
-        <p>
-            Participated in and contributed to Faculty Development
-            Programmes focusing on teaching, research, communication
-            and professional development.
-        </p>
+        <ul>
+
+            <li>Developing Creative and Critical Writing Skills – Bhupal Nobles' University – 31 Jan–09 Feb 2024.</li>
+
+            <li>Contemporary Literary Trends and Devices – SRM Institute of Science and Technology – Feb 2024.</li>
+
+            <li>Naan Muthalvan Scheme FDP – Employability Skills – MS University – June 2025.</li>
+
+            <li>Mentoring and Counselling Skills – NITTTR Chennai – Jan 2026.</li>
+
+            <li>Cambridge English Teacher Support Workshop – Becoming Certified Trainer: TKT – 2018.</li>
+
+            <li>INFLIBNET Activity Programme – 2018.</li>
+
+            <li>Effective Scholarly Communication: The Modus Operandi – 2019.</li>
+
+            <li>New Strategies for Developing English Academic Writing Skill Among Rural Learners – 2019.</li>
+
+            <li>National Level Workshop on Victorian Poetry – 2020.</li>
+
+            <li>Contemporary Theoretical Positions & Literary Theory Fest – 2020.</li>
+
+            <li>Innovative Trends in Teaching – Nilgiri College of Arts & Science.</li>
+
+        </ul>
 
     </div>
 
 </section>
 
-
-<!-- ==================================================
+<!-- =========================
      SOCIAL SERVICE
-================================================== -->
+========================= -->
 
 <section id="service">
 
-    <h2>Social Service</h2>
+    <h2>Social Service & Community Engagement</h2>
+
+    <div class="two-column">
+
+        <div class="card">
+
+            <h3>Juvenile Home Internship</h3>
+
+            <p>
+                Juvenile Home, Coimbatore – 03 February 2017 to
+                04 March 2017.
+            </p>
+
+            <p>
+                Exposure to juvenile rehabilitation, counselling,
+                case management and correctional administration.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>NSS Service</h3>
+
+            <p>
+                Seven-day Special Camping Programme:
+                <strong>“Healthy Youth for a Healthy India”</strong>
+                – Bharathiar University – March 2016.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Voluntary Blood Donation</h3>
+
+            <p>
+                Regular voluntary blood donor with more than 20 donations
+                and continued involvement in humanitarian service.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Youth Mentoring</h3>
+
+            <p>
+                Involved in educational initiatives, student mentoring,
+                youth development and community-oriented activities.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     WOMEN POLICE RESEARCH
+========================= -->
+
+<section>
+
+    <h2>Current Research Project</h2>
 
     <div class="card">
 
-        <h3>Community Engagement</h3>
+        <h3>
+            Beyond the Badge: Experiences, Workplace Challenges,
+            and Leadership Opportunities of Women Police Officers
+        </h3>
 
         <p>
-            Involved in youth development, volunteering,
-            social awareness, educational mentoring and
-            community-oriented initiatives.
+            A survey-based research initiative conducted with support
+            from the Superintendent of Police, Tenkasi District.
+        </p>
+
+        <br>
+
+        <p>
+            The study focuses on workplace experiences, challenges,
+            leadership opportunities and professional perspectives
+            of women police officers.
         </p>
 
     </div>
 
 </section>
 
-
-<!-- ==================================================
-     POLICE SERVICE PROJECTS
-================================================== -->
-
-<section id="police-projects">
-
-    <h2>
-        Police Service Projects &amp; Talks
-    </h2>
-
-
-    <p class="police-projects-intro">
-
-        Professional initiatives involving police personnel,
-        focusing on motivation, communication, teamwork,
-        workplace well-being, leadership and professional development.
-
-    </p>
-
-
-    <div class="project-grid">
-
-
-        <!-- ==========================================
-             PROJECT 01
-        =========================================== -->
-
-        <div class="project-card">
-
-            <div class="project-number">
-                PROJECT 01
-            </div>
-
-
-            <h3>
-                Serving with Strength
-            </h3>
-
-
-            <h4>
-                Motivation, Communication, Teamwork &amp;
-                Work–Life Balance for Police Personnel
-            </h4>
-
-
-            <p>
-
-                A professional motivational talk and development
-                initiative designed for police personnel, focusing
-                on workplace motivation, effective communication,
-                teamwork, resilience, stress management and
-                maintaining a healthy work–life balance.
-
-            </p>
-
-
-            <div class="project-tags">
-
-                <span>Motivation</span>
-
-                <span>Communication</span>
-
-                <span>Teamwork</span>
-
-                <span>Work–Life Balance</span>
-
-            </div>
-
-
-            <div class="project-type">
-
-                <strong>Project Type:</strong>
-
-                Police Personnel Training &amp;
-                Professional Development
-
-            </div>
-
-        </div>
-
-
-        <!-- ==========================================
-             PROJECT 02
-        =========================================== -->
-
-        <div class="project-card">
-
-            <div class="project-number">
-                PROJECT 02
-            </div>
-
-
-            <h3>
-                Beyond the Badge
-            </h3>
-
-
-            <h4>
-                Experiences, Workplace Challenges, and Leadership
-                Opportunities of Women Police Officers
-            </h4>
-
-
-            <p>
-
-                A research-oriented project exploring the professional
-                experiences, workplace challenges, leadership opportunities
-                and perspectives of women police officers, with emphasis
-                on professional growth, workplace support, communication
-                and leadership development.
-
-            </p>
-
-
-            <div class="project-tags">
-
-                <span>Women Police</span>
-
-                <span>Leadership</span>
-
-                <span>Workplace Challenges</span>
-
-                <span>Professional Growth</span>
-
-            </div>
-
-
-            <div class="project-type">
-
-                <strong>Project Type:</strong>
-
-                Research &amp; Professional Development
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ==================================================
+<!-- =========================
      BOOKS
-================================================== -->
+========================= -->
 
 <section id="books">
 
-    <h2>Books</h2>
+    <h2>Books & Literary Works</h2>
 
+    <p class="section-intro">
+        Literary works published under the author name
+        <strong>Karthik Balasubramanian</strong>.
+    </p>
 
     <div class="book-grid">
 
+        <div class="book">
 
-        <div class="book-card">
+            <h3>GlobeTrotting</h3>
 
-            <h3>
-                GlobeTrotting
-            </h3>
+            <p><strong>2022</strong></p>
 
-            <p>
-                A published work by author
-                Karthik Balasubramanian.
-            </p>
+            <p>Published by Writers Corners, Chennai.</p>
 
         </div>
 
+        <div class="book">
 
-        <div class="book-card">
+            <h3>Who Killed Nahla?</h3>
 
-            <h3>
-                Who Killed Nahla?
-            </h3>
+            <p><strong>2023</strong></p>
 
-            <p>
-                Crime and mystery fiction by
-                Karthik Balasubramanian.
-            </p>
+            <p>Crime Fiction</p>
 
-        </div>
+            <p>ISBN: 978-93-5868-117-8</p>
 
-
-        <div class="book-card">
-
-            <h3>
-                Two Hearts, One Truth
-            </h3>
-
-            <p>
-                A crime and mystery thriller involving
-                disappearance, investigation and the
-                search for truth.
-            </p>
+            <p>Kitab Writing Publication, Mumbai.</p>
 
         </div>
 
+        <div class="book">
 
-        <div class="book-card">
+            <h3>Two Hearts, One Truth</h3>
 
-            <h3>
-                The Mist Knows The Killer
-            </h3>
+            <p><strong>2026</strong></p>
 
-            <p>
-                Upcoming crime mystery novel set against
-                the misty landscape of the Nilgiris.
-            </p>
+            <p>Crime / Mystery Thriller</p>
+
+            <p>ISBN: 9366316239</p>
+
+            <p>SGHS Publication, Mumbai.</p>
+
+            <p>Nominated for Saahitya Sparsh Awards.</p>
+
+        </div>
+
+        <div class="book">
+
+            <h3>The Mist Knows The Killer</h3>
+
+            <p><strong>Upcoming</strong></p>
+
+            <p>Crime Mystery Novel</p>
+
+            <p>Currently under progress.</p>
 
         </div>
 
@@ -1375,97 +1725,81 @@ footer {
 
 </section>
 
-
-<!-- ==================================================
+<!-- =========================
      AWARDS
-================================================== -->
+========================= -->
 
 <section id="awards">
 
-    <h2>Awards &amp; Recognitions</h2>
-
+    <h2>Awards & Recognitions</h2>
 
     <div class="awards-grid">
 
+        <div class="award">
 
-        <div class="award-card">
-
-            <h3>
-                Dr A.P.J. Abdul Kalam Visionary Award – 2026
-            </h3>
+            <h3>Dr. A.P.J. Abdul Kalam Visionary Award – 2026</h3>
 
             <p>
-                Recognition for contributions to education,
-                literature, research and youth development.
+                Presented by the Hon'ble Governor of Tamil Nadu in recognition
+                of contributions to education, literature, research and
+                youth development.
             </p>
 
         </div>
 
+        <div class="award">
 
-        <div class="award-card">
-
-            <h3>
-                Dr. S. Radhakrishnan Visionary Mentor Award
-                – Season II, 2026
-            </h3>
+            <h3>Dr. S. Radhakrishnan Visionary Mentor Award – Season II, 2026</h3>
 
             <p>
-                Recognition for exemplary mentorship,
-                dedicated guidance and contributions to education.
+                Conferred by Tretayug Foundation in recognition of exemplary
+                mentorship, dedicated guidance and lasting contributions
+                to education. Received from Hon'ble DGP of Tamil Nadu
+                Dr. Mahesh Kumar Agarwal, IPS.
             </p>
 
         </div>
 
+        <div class="award">
 
-        <div class="award-card">
-
-            <h3>
-                Best Author of 2026
-            </h3>
+            <h3>Certificate of Excellence – Rotary Club of Sankarankovil</h3>
 
             <p>
-                Recognition from Golden Entertainments.
+                Recognition for excellence in education, leadership
+                and community service.
             </p>
 
         </div>
 
+        <div class="award">
 
-        <div class="award-card">
-
-            <h3>
-                Rotary Certificate of Excellence
-            </h3>
-
-            <p>
-                Recognition for service and contribution.
-            </p>
-
-        </div>
-
-
-        <div class="award-card">
-
-            <h3>
-                Regular Voluntary Blood Donor Award
-            </h3>
+            <h3>Regular Voluntary Blood Donor Award</h3>
 
             <p>
                 Recognition for regular voluntary blood donation
-                and service.
+                and humanitarian service.
             </p>
 
         </div>
 
+        <div class="award">
 
-        <div class="award-card">
-
-            <h3>
-                Jackie Book of World Records
-            </h3>
+            <h3>Saahitya Sparsh Award Nomination – 2026</h3>
 
             <p>
-                Recognition associated with cycling and a large
-                student Republic Day assembly initiative.
+                Book: <strong>Two Hearts One Truth</strong><br>
+                Category: Best Author.
+            </p>
+
+        </div>
+
+        <div class="award">
+
+            <h3>Jackie Book of World Records</h3>
+
+            <p>
+                Recognition associated with cycling and youth
+                participation activities.
             </p>
 
         </div>
@@ -1474,215 +1808,174 @@ footer {
 
 </section>
 
-
-<!-- ==================================================
+<!-- =========================
      DISTINGUISHED MEETINGS
-================================================== -->
+========================= -->
 
 <section>
 
-    <h2>Distinguished Meetings</h2>
-
-
-    <div class="two-column">
-
-
-        <div class="card">
-
-            <h3>
-                Hon'ble Governor of Tamil Nadu
-            </h3>
-
-            <p>
-                Met the Hon'ble Governor and presented literary work,
-                including the cover of
-                <em>The Mist Knows The Killer</em>.
-            </p>
-
-        </div>
-
-
-        <div class="card">
-
-            <h3>
-                Director General of Police, Tamil Nadu
-            </h3>
-
-            <p>
-                Met senior police leadership and presented
-                his literary work.
-            </p>
-
-        </div>
-
-
-        <div class="card">
-
-            <h3>
-                Vice-Chancellor, Manonmaniam Sundaranar University
-            </h3>
-
-            <p>
-                Academic interaction and exchange of ideas
-                on education and literature.
-            </p>
-
-        </div>
-
-
-        <div class="card">
-
-            <h3>
-                Senior Civil Service Officers
-            </h3>
-
-            <p>
-                Professional interactions through civil service
-                training and leadership programmes.
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ==================================================
-     LEADERSHIP
-================================================== -->
-
-<section>
-
-    <h2>Leadership</h2>
+    <h2>Distinguished Meetings & Professional Recognition</h2>
 
     <div class="card">
 
-        <p>
-            Leadership roles in academic mentoring,
-            youth development, camp coordination,
-            social service, training programmes and
-            professional development initiatives.
-        </p>
+        <ul>
+
+            <li>Presented published books to the Hon'ble Governor of Tamil Nadu.</li>
+
+            <li>Presented books to senior public officials, Ministers,
+                IAS/IPS officers, Vice-Chancellors and eminent professors.</li>
+
+            <li>Professional interactions with senior administrators
+                and academic leaders.</li>
+
+            <li>Literary and academic engagements with universities,
+                colleges and public institutions.</li>
+
+            <li>Book-related literary milestones and professional
+                recognition through academic and public platforms.</li>
+
+        </ul>
 
     </div>
 
 </section>
 
-
-<!-- ==================================================
-     SKILLS
-================================================== -->
-
-<section id="skills">
-
-    <h2>Professional Skills</h2>
-
-
-    <div class="skills">
-
-
-        <div class="skill-card">
-
-            <h3>Communication</h3>
-
-            <p>
-                Professional and interpersonal communication
-            </p>
-
-        </div>
-
-
-        <div class="skill-card">
-
-            <h3>Public Speaking</h3>
-
-            <p>
-                Motivational and academic presentations
-            </p>
-
-        </div>
-
-
-        <div class="skill-card">
-
-            <h3>Teaching</h3>
-
-            <p>
-                English language and literature teaching
-            </p>
-
-        </div>
-
-
-        <div class="skill-card">
-
-            <h3>Research</h3>
-
-            <p>
-                Academic research and scholarly writing
-            </p>
-
-        </div>
-
-
-        <div class="skill-card">
-
-            <h3>Leadership</h3>
-
-            <p>
-                Team coordination and mentoring
-            </p>
-
-        </div>
-
-
-        <div class="skill-card">
-
-            <h3>Training</h3>
-
-            <p>
-                Soft skills and professional development
-            </p>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ==================================================
-     FITNESS
-================================================== -->
+<!-- =========================
+     LEADERSHIP
+========================= -->
 
 <section>
 
-    <h2>Fitness &amp; Endurance</h2>
-
+    <h2>Leadership & Professional Roles</h2>
 
     <div class="two-column">
 
+        <div class="card">
+            <h3>Academic Leadership</h3>
+            <p>
+                Faculty advising, student mentoring, departmental activities,
+                event coordination and institutional quality initiatives.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Camp Leadership</h3>
+            <p>
+                Camp Commander / Camp Leader for Civil Service Officer
+                training programmes.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Resource Person</h3>
+            <p>
+                Delivered academic, motivational and professional-development
+                sessions at colleges and universities.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Community Leadership</h3>
+            <p>
+                Youth mentoring, blood donation, cycling, fitness and
+                community-service activities.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     SKILLS
+========================= -->
+
+<section id="skills">
+
+    <h2>Digital, Academic & Professional Skills</h2>
+
+    <div class="two-column">
+
+        <div class="card">
+            <h3>Microsoft Office</h3>
+            <p>Word, Excel, PowerPoint, Outlook and OneDrive.</p>
+        </div>
+
+        <div class="card">
+            <h3>Google Workspace</h3>
+            <p>
+                Google Classroom, Google Meet, Google Docs,
+                Google Forms, Google Drive and Google Workspace.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Academic Writing</h3>
+            <p>
+                Research writing, journal articles, conference papers,
+                book chapters, APA, MLA, editing, proofreading and
+                publication ethics.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>AI-Assisted Academic Tools</h3>
+            <p>
+                ChatGPT, Microsoft Copilot, Gemini, Grammarly,
+                QuillBot, Perplexity AI, Canva AI and AI-assisted
+                research tools.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Research Skills</h3>
+            <p>
+                Research methodology, literature review, data collection,
+                qualitative analysis, comparative literary studies,
+                journal publication and conference presentation.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Academic Administration</h3>
+            <p>
+                OBE, curriculum design, student mentoring,
+                academic coordination and institutional activities.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     FITNESS
+========================= -->
+
+<section>
+
+    <h2>Cycling, Fitness & Community Activities</h2>
+
+    <div class="two-column">
 
         <div class="card">
 
-            <h3>Running</h3>
+            <h3>World Record Cycling</h3>
 
             <p>
-                Marathon and endurance running enthusiast
-                with participation in 10K, 15K and longer-distance events.
+                Recognised for participation in a world-record cycling
+                event involving youth participation.
             </p>
 
         </div>
 
-
         <div class="card">
 
-            <h3>Powerlifting</h3>
+            <h3>Fitness & Running</h3>
 
             <p>
-                Strength training and powerlifting enthusiast
-                with a focus on discipline, consistency and performance.
+                Active fitness enthusiast with interests in marathon
+                running, cycling and strength training.
             </p>
 
         </div>
@@ -1691,10 +1984,9 @@ footer {
 
 </section>
 
-
-<!-- ==================================================
+<!-- =========================
      ACHIEVEMENT GALLERY
-================================================== -->
+========================= -->
 
 <section id="achievements">
 
@@ -1806,145 +2098,240 @@ footer {
 
 </section>
 
-
-<!-- ==================================================
+<!-- =========================
      PERSONAL INTERESTS
-================================================== -->
+========================= -->
 
 <section>
 
     <h2>Personal Interests</h2>
 
+    <div class="skills">
 
-    <div class="two-column">
-
-
-        <div class="card">
-
-            <h3>
-                Literature &amp; Writing
-            </h3>
-
-            <p>
-                Crime fiction, mythology, literature
-                and creative writing.
-            </p>
-
-        </div>
-
-
-        <div class="card">
-
-            <h3>
-                Fitness &amp; Adventure
-            </h3>
-
-            <p>
-                Running, cycling, strength training
-                and outdoor activities.
-            </p>
-
-        </div>
+        <span class="skill">Reading</span>
+        <span class="skill">Writing</span>
+        <span class="skill">Public Speaking</span>
+        <span class="skill">Travelling</span>
+        <span class="skill">Marathon Running</span>
+        <span class="skill">Cycling</span>
+        <span class="skill">Community Service</span>
 
     </div>
 
 </section>
 
-
-<!-- ==================================================
+<!-- =========================
      CONTACT
-================================================== -->
+========================= -->
 
 <section id="contact">
 
     <h2>Contact</h2>
 
-
     <div class="contact-box">
 
-        <h3>
-            Dr. B. Muthukarthikeyan
-        </h3>
+        <h3>Dr. B. Muthukarthikeyan</h3>
+
+        <p>Assistant Professor of English</p>
 
         <p>
-            Assistant Professor of English
-        </p>
-
-        <p>
-            P.S.R. Engineering College,
-            Sivakasi, Tamil Nadu
+            P.S.R. Engineering College, Sivakasi, Tamil Nadu
         </p>
 
         <br>
 
         <p>
-            Author:
+            Author Name:
             <strong>Karthik Balasubramanian</strong>
         </p>
 
         <br>
 
         <p>
-            For academic, literary, motivational speaking
-            and professional collaboration enquiries,
-            please get in touch.
+            Professional Email:
+            <a href="mailto:karthiktendlya@gmail.com">
+                karthiktendlya@gmail.com
+            </a>
         </p>
+
+        <br>
+
+        <p>
+            Research Areas:
+            ELT • Indian Writing in English • Comparative Literature •
+            Mythology • Gender Studies • Crime Fiction • Communication Studies
+        </p>
+
+        <a
+            href="mailto:karthiktendlya@gmail.com"
+            class="contact-button"
+        >
+            Send Me an Email
+        </a>
 
     </div>
 
 </section>
 
-
-<!-- ==================================================
+<!-- =========================
      FOOTER
-================================================== -->
+========================= -->
 
 <footer>
 
-    <p>
-        &copy; 2026 Dr. B. Muthukarthikeyan.
-        All Rights Reserved.
+    <p class="footer-name">
+        Dr. B. Muthukarthikeyan
     </p>
 
     <p>
-        Author: Karthik Balasubramanian
+        Assistant Professor of English | Author | Researcher | Motivational Speaker
+    </p>
+
+    <br>
+
+    <p>
+        © 2026 Dr. B. Muthukarthikeyan. All Rights Reserved.
+    </p>
+
+    <p>
+        Official Portfolio
     </p>
 
 </footer>
 
+<!-- BACK TO TOP -->
 
-<!-- ==================================================
-     BACK TO TOP
-================================================== -->
-
-<a id="backToTop"
-   href="#"
-   aria-label="Back to top">
+<a href="#top" class="back-top" aria-label="Back to top">
     ↑
 </a>
-
-
 <script>
 
-window.addEventListener("scroll", function () {
+const mediumRSS =
+    "https://medium.com/feed/@karthiktendlya";
 
-    const button =
-        document.getElementById("backToTop");
+const mediumContainer =
+    document.getElementById("mediumArticles");
 
-    if (window.scrollY > 300) {
+const rssAPI =
+    "https://api.rss2json.com/v1/api.json?rss_url="
+    + encodeURIComponent(mediumRSS);
 
-        button.style.display = "flex";
+fetch(rssAPI)
 
-    } else {
+    .then(response => response.json())
 
-        button.style.display = "none";
+    .then(data => {
 
-    }
+        mediumContainer.innerHTML = "";
 
-});
+        if (!data.items || data.items.length === 0) {
+
+            mediumContainer.innerHTML =
+                "<div class='medium-loading'>No articles found.</div>";
+
+            return;
+        }
+
+        data.items.forEach(article => {
+
+            let image =
+                article.thumbnail ||
+                "https://via.placeholder.com/800x450?text=My+Writing";
+
+            let date =
+                new Date(article.pubDate)
+                .toLocaleDateString("en-IN", {
+                    day: "numeric",
+                    month: "long",
+                    year: "numeric"
+                });
+
+            let description =
+                article.description
+                ? article.description
+                    .replace(/<[^>]*>/g, "")
+                    .substring(0, 160)
+                : "Read my latest article published on Medium.";
+
+            const card =
+                document.createElement("article");
+
+            card.className = "medium-card";
+
+            card.innerHTML = `
+
+                <img
+                    src="${image}"
+                    alt="${article.title}"
+                    class="medium-card-image"
+                    loading="lazy"
+                >
+
+                <div class="medium-card-content">
+
+                    <div class="medium-date">
+                        ${date}
+                    </div>
+
+                    <h3>
+                        ${article.title}
+                    </h3>
+
+                    <p class="medium-description">
+                        ${description}...
+                    </p>
+
+                    <a
+                        href="${article.link}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="medium-read">
+                        Read Full Article →
+                    </a>
+
+                </div>
+
+            `;
+
+            mediumContainer.appendChild(card);
+
+        });
+
+    })
+
+    .catch(error => {
+
+        console.error(
+            "Medium RSS Error:",
+            error
+        );
+
+        mediumContainer.innerHTML = `
+
+            <div class="medium-loading">
+
+                Unable to load Medium articles.
+
+                <br><br>
+
+                <a
+                    href="https://medium.com/@karthiktendlya"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    Visit My Medium Profile →
+
+                </a>
+
+            </div>
+
+        `;
+
+    });
 
 </script>
-
-
 </body>
+   
 </html>
+
+
