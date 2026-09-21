@@ -668,6 +668,133 @@ footer {
     .writings-section {
         padding: 50px 15px;
     }
+   /* =========================
+   POLICE SERVICE PROJECTS
+========================= */
+
+#police-projects {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 70px 20px;
+    background: #f7f9fc;
+}
+
+#police-projects h2 {
+    text-align: center;
+    color: #172554;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.police-projects-intro {
+    max-width: 850px;
+    margin: -10px auto 40px;
+    text-align: center;
+    color: #64748b;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.project-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(15, 23, 42, 0.08);
+    border-top: 5px solid #2563eb;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.14);
+}
+
+.project-number {
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.project-card h3 {
+    color: #172554;
+    font-size: 27px;
+    margin-bottom: 12px;
+}
+
+.project-card h4 {
+    color: #374151;
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+.project-card p {
+    color: #555555;
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.project-tags span {
+    background: #dbeafe;
+    color: #1e3a8a;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.project-type {
+    border-top: 1px solid #e5e7eb;
+    padding-top: 15px;
+    color: #64748b;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+@media(max-width:900px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:600px) {
+    #police-projects {
+        padding: 50px 15px;
+    }
+
+    #police-projects h2 {
+        font-size: 27px;
+    }
+
+    .project-card {
+        padding: 22px;
+    }
+
+    .project-card h3 {
+        font-size: 24px;
+    }
+
+    .project-card h4 {
+        font-size: 16px;
+    }
+}
 }</style>
 
 </head>
@@ -1195,6 +1322,111 @@ footer {
     </div>
 
 </section>
+   <!-- =========================
+     POLICE SERVICE PROJECTS
+========================= -->
+
+<section id="police-projects">
+
+    <h2>Police Service Projects &amp; Talks</h2>
+
+    <p class="police-projects-intro">
+        Professional initiatives involving police personnel, focusing on
+        motivation, communication, teamwork, workplace well-being,
+        leadership and professional development.
+    </p>
+
+    <div class="project-grid">
+
+        <!-- PROJECT 01 -->
+
+        <div class="project-card">
+
+            <div class="project-number">
+                PROJECT 01
+            </div>
+
+            <h3>
+                Serving with Strength
+            </h3>
+
+            <h4>
+                Motivation, Communication, Teamwork &amp;
+                Work–Life Balance for Police Personnel
+            </h4>
+
+            <p>
+                A professional motivational talk and development initiative
+                designed for police personnel, focusing on workplace
+                motivation, effective communication, teamwork, resilience,
+                stress management and maintaining a healthy work–life balance.
+            </p>
+
+            <div class="project-tags">
+
+                <span>Motivation</span>
+                <span>Communication</span>
+                <span>Teamwork</span>
+                <span>Work–Life Balance</span>
+
+            </div>
+
+            <div class="project-type">
+
+                <strong>Project Type:</strong>
+                Police Personnel Training &amp; Professional Development
+
+            </div>
+
+        </div>
+
+
+        <!-- PROJECT 02 -->
+
+        <div class="project-card">
+
+            <div class="project-number">
+                PROJECT 02
+            </div>
+
+            <h3>
+                Beyond the Badge
+            </h3>
+
+            <h4>
+                Experiences, Workplace Challenges, and Leadership
+                Opportunities of Women Police Officers
+            </h4>
+
+            <p>
+                A research-oriented project exploring the professional
+                experiences, workplace challenges, leadership opportunities
+                and perspectives of women police officers, with emphasis on
+                professional growth, workplace support, communication and
+                leadership development.
+            </p>
+
+            <div class="project-tags">
+
+                <span>Women Police</span>
+                <span>Leadership</span>
+                <span>Workplace Challenges</span>
+                <span>Professional Growth</span>
+
+            </div>
+
+            <div class="project-type">
+
+                <strong>Project Type:</strong>
+                Research &amp; Professional Development
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
 <!-- =========================
      PUBLICATIONS
@@ -1617,38 +1849,6 @@ footer {
             </p>
 
         </div>
-
-    </div>
-
-</section>
-
-<!-- =========================
-     WOMEN POLICE RESEARCH
-========================= -->
-
-<section>
-
-    <h2>Current Research Project</h2>
-
-    <div class="card">
-
-        <h3>
-            Beyond the Badge: Experiences, Workplace Challenges,
-            and Leadership Opportunities of Women Police Officers
-        </h3>
-
-        <p>
-            A survey-based research initiative conducted with support
-            from the Superintendent of Police, Tenkasi District.
-        </p>
-
-        <br>
-
-        <p>
-            The study focuses on workplace experiences, challenges,
-            leadership opportunities and professional perspectives
-            of women police officers.
-        </p>
 
     </div>
 
